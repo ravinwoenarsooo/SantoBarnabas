@@ -110,67 +110,64 @@
                 </div>
             </div>
         </div>
-    <svg width="100%" height="2">
-        <line x1="0" y1="1" x2="100%" y2="1" style="stroke:black;stroke-width:2" />
-    </svg>
-    <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap w-full mb-20">
-            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">WARTA PAROKI</h1>
-                <div class="h-1 w-20 bg-yellow-950 rounded"></div>
-            </div>
-        </div>
-        <div class="flex flex-wrap -m-4">
-            <!-- forelse($wartaParoki as $item) -->
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg">
-                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="{{ asset('images/BannerWP.png') }}" alt="content">
-                    <h3 class="tracking-widest text-black text-xs font-medium title-font">01-01-2023</h3>
-                    <h2 class="text-lg text-black font-medium title-font mb-4">Judul</h2>
-                    <p class="leading-relaxed text-base mb-2">isi kena limit : 25</p>
-                    <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Warta Paroki</a>
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">WARTA PAROKI</h1>
+                    <div class="h-1 w-full bg-yellow-950 rounded"></div>
                 </div>
             </div>
-            <!-- empty -->
-            <div class="w-full flex justify-center">
-                <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg font-bold border border-amber-900">
-                    <p class="text-black">Tidak ada Warta Paroki!</p>
-                </div>
-            </div>
-            <!-- endforelse -->
-        </div>
-    </div>  
-    <div class="container px-5 py-24 mx-auto" bis_skin_checked="1">
-        <div class="flex flex-wrap w-full mb-20">
-            <div class="w-full mb-6 lg:mb-0">
-                <h1 class="text-black text-1xl font-medium text-center">Gereja Santo Barnabas</h1>
-            </div>
-            <div class="w-full mb-6 lg:mb-0">
-                <h1 class="text-black text-6xl font-bold text-center">Informasi Gereja</h1>
-            </div>
-        </div>
-        <div class="flex flex-wrap" bis_skin_checked="1">
-            <!-- foreach($infoPentingCollection as $infoSingle) -->
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg">
-                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="{{ asset('images/BannerIF.png') }}" alt="content">
-                    <h3 class="tracking-widest text-black text-xs font-medium title-font">01-01-2023</h3>
-                    <h2 class="text-lg text-black font-medium title-font mb-4">Judul</h2>
-                    <p class="leading-relaxed text-base mb-2">Isi kena limit : 25</p>
-                    <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Informasi</a>
-                </div>
-            </div>
-            <!-- endforeach -->
-            
-            <!-- if($infoPentingCollection->isEmpty()) -->
-                <div class="w-full flex justify-center">
-                    <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg font-bold border border-amber-900">
-                        <p class="text-black">Tidak ada Informasi Penting!</p>
+            <div class="flex flex-wrap -m-4">
+                <!-- forelse($wartaParoki as $item) -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="{{ asset('images/BannerWP.png') }}" alt="content">
+                        <h3 class="tracking-widest text-black text-xs font-medium title-font">01-01-2023</h3>
+                        <h2 class="text-lg text-black font-medium title-font mb-4">Judul</h2>
+                        <p class="leading-relaxed text-base mb-2">isi kena limit : 25</p>
+                        <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Warta Paroki</a>
                     </div>
                 </div>
-            <!-- endif -->
-        </div>
-    </div>  
+                <!-- empty -->
+                <div class="w-full flex justify-center">
+                    <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg font-bold border border-amber-900">
+                        <p class="text-black">Tidak ada Warta Paroki!</p>
+                    </div>
+                </div>
+                <!-- endforelse -->
+            </div>
+        </div>  
+        <div class="container px-5 py-24 mx-auto" bis_skin_checked="1">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="w-full mb-6 lg:mb-0">
+                    <h1 class="text-black text-1xl font-medium text-center">Gereja Santo Barnabas</h1>
+                </div>
+                <div class="w-full mb-6 lg:mb-0">
+                    <h1 class="text-black text-6xl font-bold text-center">Informasi Gereja</h1>
+                </div>
+            </div>
+            <div class="flex flex-wrap" bis_skin_checked="1">
+                <!-- foreach($infoPentingCollection as $infoSingle) -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="{{ asset('images/BannerIF.png') }}" alt="content">
+                        <h3 class="tracking-widest text-black text-xs font-medium title-font">01-01-2023</h3>
+                        <h2 class="text-lg text-black font-medium title-font mb-4">Judul</h2>
+                        <p class="leading-relaxed text-base mb-2">Isi kena limit : 25</p>
+                        <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Informasi</a>
+                    </div>
+                </div>
+                <!-- endforeach -->
+                
+                <!-- if($infoPentingCollection->isEmpty()) -->
+                    <div class="w-full flex justify-center">
+                        <div class="bg-orange-300 bg-opacity-40 p-6 rounded-lg font-bold border border-amber-900">
+                            <p class="text-black">Tidak ada Informasi Penting!</p>
+                        </div>
+                    </div>
+                <!-- endif -->
+            </div>
+        </div>  
     </section>
 
     <div style="height: 1000px;"></div>
