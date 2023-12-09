@@ -22,7 +22,7 @@
             </p>
         </div>
         <div class="title-font sm:text-3xl text-3xl mb-4 font-medium text-stone-800 text-center">
-            Lokasi Gereja Santo Barnabas
+            Peta Paroki Santo Barnabas
         </div>
         <div class="mx-auto w-full px-10 py-12 md:flex-row items-center flex justify-center">
             <img class="object-cover h-auto object-center rounded" alt="Your Image Description" src="{{ asset('images/peta.png') }}">
