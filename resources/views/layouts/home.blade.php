@@ -35,7 +35,7 @@
                     </svg>
                 </a>
                 <a href="https://www.instagram.com/komsossantobarnabas/" class="ml-3 text-white"
-                onmouseover="this.style.color='orange'" 
+                onmouseover="this.style.color='purple'" 
                 onmouseout="this.style.color='white'">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-auto" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
