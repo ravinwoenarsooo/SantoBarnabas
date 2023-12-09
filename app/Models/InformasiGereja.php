@@ -9,5 +9,5 @@ class InformasiGereja extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['Judul', 'Tanggal', 'Isi'];
+    protected $fillable = ['Judul', 'TanggalUpload', 'Isi'];
 }
