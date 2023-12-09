@@ -36,7 +36,7 @@
                     <p class="mb-4 leading-relaxed sm:text-xl md:text-2xl text-3xl relative">
                         Klik tombol dibawah untuk melihat profil.
                         <p class="hidden md:block mb-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec elit lobortis, vulputate metus quis, lacinia orci. Aliquam auctor sem ac felis suscipit blandit. Vivamus ante magna, tempor nec massa a, ornare porta mi. Aliquam non vehicula massa, vel pharetra erat. Nunc eleifend porta ipsum sit amet euismod. Curabitur mi risus, pharetra eget sem in, ultricies ultricies quam. Nulla hendrerit vitae est ac laoreet. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec elit lobortis, vulputate metus quis, lacinia orci........
                         </p>
                     </p>
                     <div class="flex justify-center">
