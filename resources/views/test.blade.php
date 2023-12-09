@@ -1,3 +1,6 @@
+@extends('layouts.home')
+
+@section('content')
 <section class="bg-white antialiased">
   <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
     <div class="max-w-3xl mx-auto text-center">
@@ -78,3 +81,5 @@
     </div>
   </div>
 </section>
+@endsection
+    

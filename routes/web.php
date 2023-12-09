@@ -16,9 +16,8 @@ use App\Http\Controllers\FOController;
 */
 
 Route::get('/', [FOController::class, 'show'])->name('home');
-Route::get('/test', [FOController::class, 'show'])->name('test');
-Route::get('/p', function () {
-    return view('profile');
+Route::get('/test', function () {
+    return view('test');
 });
 Route::get('/warta-paroki/{id}', [FOController::class,'showWartaParoki'])->name('warta-paroki.show');
 Route::get('/informasi-gereja/{id}', [FOController::class,'showInformasi'])->name('informasi-gereja.show');
