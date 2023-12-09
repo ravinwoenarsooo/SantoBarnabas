@@ -10,6 +10,7 @@ class FOController extends Controller
     public function show(){
         $wartaParoki = WartaParoki::all();
         $informasiGereja = InformasiGereja::all();
+        // $informasiGereja = InformasiGereja::orderBy('TanggalUpload', 'desc')->take(5)->get();
 
         return view('home', compact('wartaParoki', 'informasiGereja'));
     }

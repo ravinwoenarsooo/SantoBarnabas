@@ -170,7 +170,7 @@
         </div>  
     </section>
 
-    <div style="height: 1000px;"></div>
+    <!-- <div style="height: 1000px;"></div> -->
 
     <!-- Add the CSS styles for the animated text -->
     <style>
