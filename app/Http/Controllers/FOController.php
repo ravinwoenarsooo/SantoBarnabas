@@ -33,4 +33,8 @@ class FOController extends Controller
 
         return view('informasi-gereja.show', compact('informasiGereja'));
     }
+
+    public function showProfile(){
+        return view('profile.show');
+    }
 }

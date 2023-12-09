@@ -40,7 +40,7 @@
                         </p>
                     </p>
                     <div class="flex justify-center">
-                        <a href="#" class="inline-flex text-white font-bold bg-yellow-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Selanjutnya</a>
+                        <a href="{{ route('profile.show') }}" class="inline-flex text-white font-bold bg-yellow-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Selanjutnya</a>
                     </div>
                 </div>
             </div>
@@ -118,8 +118,7 @@
             </div>
         </div>
     </section>
-    >
-        </section>
+    <section>
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
