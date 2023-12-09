@@ -1,6 +1,6 @@
-@extends('layouts.profile')
+@extends('layouts.home')
 
-@section('profil')
+@section('content')
 <section id="section-2">
     <div class="bg-white h-full relative">
     <hr class="border-b-2 border-stone-500 mx-auto w-90 mb-10">
