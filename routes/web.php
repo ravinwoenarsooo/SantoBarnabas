@@ -19,6 +19,9 @@ Route::get('/', [FOController::class, 'show'])->name('home');
 Route::get('/test', function () {
     return view('test');
 });
+Route::get('/kontak', function () {
+    return view('kontak');
+});
 Route::get('/warta-paroki/{id}', [FOController::class,'showWartaParoki'])->name('warta-paroki.show');
 Route::get('/informasi-gereja/{id}', [FOController::class,'showInformasi'])->name('informasi-gereja.show');
 Route::get('/profile', [FOController::class,'showProfile'])->name('profile.show');
