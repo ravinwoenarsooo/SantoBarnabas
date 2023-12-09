@@ -58,43 +58,38 @@
                 <div class="container mx-auto px-4 lg:px-6">
                     <div class="schedule-container max-w-4xl mx-auto mt-8 sm:mt-12 lg:mt-16">
                         <div class="-my-4 divide-y divide-gray-200 dark:divide-white">
-        
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
                                     06:00 - 07:00
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a href="#" class="hover:underline">Misa Harian</a>
+                                    <a class="hover:underline">Misa Harian</a>
                                 </h3>
-                            </div>
-        
+                            </div>       
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
                                     18:00 - 19:00
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a href="#" class="hover:underline">Misa Jumat Pertama</a>
+                                    <a class="hover:underline">Misa Jumat Pertama</a>
                                 </h3>
                             </div>
-        
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
                                     17:00 - 18:00
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a href="#" class="hover:underline">Misa Sabtu</a>
+                                    <a class="hover:underline">Misa Sabtu</a>
                                 </h3>
                             </div>
-        
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
                                     05:30 - 07:30
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a href="#" class="hover:underline">Misa Minggu</a>
+                                    <a class="hover:underline">Misa Minggu</a>
                                 </h3>
                             </div>
-        
                         </div>
                     </div>
                 </div>
@@ -105,8 +100,8 @@
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                    <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">WARTA PAROKI</h1>
-                    <div class="h-1 w-full bg-yellow-950 rounded"></div>
+                    <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">Warta Paroki Pamulang</h1>
+                    <div class="h-1 w-full mt-10 bg-yellow-950 rounded"></div>
                 </div>
             </div>
             <div class="flex flex-wrap -m-4">
@@ -131,11 +126,12 @@
         </div>  
         <div class="container px-5 py-24 mx-auto" bis_skin_checked="1">
             <div class="flex flex-wrap w-full mb-20">
-                <div class="w-full mb-6 lg:mb-0">
-                    <h1 class="text-black text-1xl font-medium text-center">Gereja Santo Barnabas</h1>
-                </div>
-                <div class="w-full mb-6 lg:mb-0">
-                    <h1 class="text-black text-6xl font-bold text-center">Informasi Gereja</h1>
+                
+                <div class="flex flex-wrap w-full mb-20">
+                    <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                        <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">Informasi Gereja</h1>
+                        <div class="h-1 w-full mt-10 bg-yellow-950 rounded"></div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-wrap" bis_skin_checked="1">
