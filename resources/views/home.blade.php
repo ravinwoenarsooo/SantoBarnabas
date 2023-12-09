@@ -47,10 +47,7 @@
     </section> <!-- Mario was here-->
     <section id="section-1">
         <div class="bg-cover flex items-center justify-center h-96 relative z-10" 
-            style="background-image: url('{{ asset('images/misa.png') }}');
-                    background-position: center; 
-                    background-size: cover;
-                    position: relative;">
+            style="background-image: url('{{ asset('images/misa.png') }}'); background-position: center;  background-size: cover; position: relative;">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.5;"></div>
             <div class="flex-col text-center font-montserrat text-white" style="z-index: 1;">
                 <h1 class="text-6xl font-bold mb-5 animated-text-fade">Jadwal Misa</h1>
@@ -59,34 +56,43 @@
                         <div class="-my-4 divide-y divide-gray-200 dark:divide-white">
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
-                                    06:00 - 07:00
+                                    Misa Harian
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a class="hover:underline">Misa Harian</a>
+                                    <a class="hover:underline">06.00 WIB</a>
                                 </h3>
                             </div>       
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
-                                    18:00 - 19:00
+                                    Misa Jumat Pertama
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a class="hover:underline">Misa Jumat Pertama</a>
+                                    <a class="hover:underline">18.00 WIB</a>
                                 </h3>
                             </div>
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
-                                    17:00 - 18:00
+                                    Misa Sabtu
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a class="hover:underline">Misa Sabtu</a>
+                                    <a class="hover:underline">17.00 WIB</a>
                                 </h3>
                             </div>
                             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
                                 <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
-                                    05:30 - 07:30
+                                    Misa Minggu
                                 </p>
                                 <h3 class="text-lg font-semibold text-white dark:text-white">
-                                    <a class="hover:underline">Misa Minggu</a>
+                                    <a class="hover:underline">05.30 WIB</a>
+                                </h3>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a class="hover:underline">07.30 WIB</a>
+                                </h3>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a class="hover:underline">10.00 WIB</a>
+                                </h3>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a class="hover:underline">17.00 WIB</a>
                                 </h3>
                             </div>
                         </div>
@@ -111,7 +117,7 @@
                         <h3 class="tracking-widest text-black text-xs font-medium title-font">{{ $item->TanggalUpload }}</h3>
                         <h2 class="text-lg text-black font-medium title-font mb-4">{{ $item->Judul }}</h2>
                         <p class="leading-relaxed text-base mb-2">{{ Str::limit($item->Isi, 25) }}</p>
-                        <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Warta Paroki</a>
+                        <a href="{{ route('warta-paroki.show', ['id' => (string)$item->id]) }}" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Warta Paroki</a>
                     </div>
                 </div>
                 @empty
@@ -141,7 +147,7 @@
                         <h3 class="tracking-widest text-black text-xs font-medium title-font">{{ $infoSingle->TanggalUpload }}</h3>
                         <h2 class="text-lg text-black font-medium title-font mb-4">{{ $infoSingle->Judul }}</h2>
                         <p class="leading-relaxed text-base mb-2">{{ Str::limit($infoSingle->Isi, 25) }}</p>
-                        <a href="/" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Informasi</a>
+                        <a href="{{ route('informasi-gereja.show', ['id' => (string)$infoSingle->id]) }}" class="px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">Lihat Informasi</a>
                     </div>
                 </div>
                 @endforeach
