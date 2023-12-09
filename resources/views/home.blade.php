@@ -47,78 +47,66 @@
         </div>
     </section> <!-- Mario was here-->
 
+ 
+
     <section id="section-1">
-        <div class="bg-cover flex items-center justify-center h-80 relative z-10" 
+        <div class="bg-cover flex items-center justify-center h-96 relative z-10" 
             style="background-image: url('{{ asset('images/misa.png') }}');
                     background-position: center; 
+                    background-size: cover;
                     position: relative;">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.5;"></div>
-            <div class="flex-col text-center font-montserrat" style="z-index: 1;">
-                <h1 class="text-white text-6xl font-bold mb-5 animated-text-fade">Jadwal Misa</h1>
-            </div>
-        </div>
-    </section>  
-
-    <section class="bg-white dark:bg-gray-900 antialiased">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-            <div class="max-w-3xl mx-auto text-center">
-            
-                        <svg aria-hidden="true" class="w-5 h-5 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-    
-            <div class="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
-                <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-700">
-                    <!-- Replace the schedule items with your specific content -->
-                    <!-- Example schedule items provided below -->
-    
-                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                            06:00 - 07:00
-                        </p>
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                            <a href="#" class="hover:underline">Misa Harian</a>
-                        </h3>
+            <div class="flex-col text-center font-montserrat text-white" style="z-index: 1;">
+                <h1 class="text-6xl font-bold mb-5 animated-text-fade">Jadwal Misa</h1>
+                <div class="container mx-auto px-4 lg:px-6">
+                    <div class="schedule-container max-w-4xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+                        <div class="-my-4 divide-y divide-gray-200 dark:divide-white">
+        
+                            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                                <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
+                                    06:00 - 07:00
+                                </p>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a href="#" class="hover:underline">Misa Harian</a>
+                                </h3>
+                            </div>
+        
+                            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                                <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
+                                    18:00 - 19:00
+                                </p>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a href="#" class="hover:underline">Misa Jumat Pertama</a>
+                                </h3>
+                            </div>
+        
+                            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                                <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
+                                    17:00 - 18:00
+                                </p>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a href="#" class="hover:underline">Misa Sabtu</a>
+                                </h3>
+                            </div>
+        
+                            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                                <p class="w-32 text-lg font-normal text-white sm:text-right dark:text-white shrink-0">
+                                    05:30 - 07:30
+                                </p>
+                                <h3 class="text-lg font-semibold text-white dark:text-white">
+                                    <a href="#" class="hover:underline">Misa Minggu</a>
+                                </h3>
+                            </div>
+        
+                        </div>
                     </div>
-    
-                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                            18:00 - 19:00
-                        </p>
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                            <a href="#" class="hover:underline">Misa Jumat Pertama</a>
-                        </h3>
-                    </div>
-    
-                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                            17:00 - 18:00
-                        </p>
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                            <a href="#" class="hover:underline">Misa Sabtu</a>
-                        </h3>
-                    </div>
-    
-                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                            05:30 - 07:30
-                        </p>
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                            <a href="#" class="hover:underline">Misa Minggu</a>
-                        </h3>
-                    </div>
-    
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    
+    
+        </section>
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
