@@ -35,7 +35,7 @@
                     </svg>
                 </a>
                 <a href="https://www.instagram.com/komsossantobarnabas/" class="ml-3 text-white"
-                onmouseover="this.style.color='orange'" 
+                onmouseover="this.style.color='purple'" 
                 onmouseout="this.style.color='white'">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-auto" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -87,18 +87,22 @@
                     <br>Barnabas
                 </h1>
             </div>
-            <div class="md:w-1/2 w-full px-4">    
+            <div class="md:w-1/2 w-full px-4">  
+        <div class="text-4xl font-bold mb-4" style="text-decoration: none;">Lokasi Gereja</div>
+        <nav class="list-none mb-10" style="text-decoration: none;">
+            St. Barnabas <br className='md:hidden block' />
+            Jl. Moh. Toha No.3, <br className='md:hidden block' />
+            RT.002/RW.005, Pd. Cabe Udik, <br className='md:hidden block' />
+            Kec. Pamulang, Kota Tangerang Selatan, Banten 15418 <br className='md:hidden block' />
+            <br className='md:hidden block' />
             <a href="https://www.google.com/maps/place/Saint+Barnabas+Catholic+Church,+Pamulang/@-6.348557,106.7476011,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x2e69ef0c62f22ac9:0x7f8b5476db79fc14!2sSaint+Barnabas+Catholic+Church,+Pamulang,+Jl.+Moh.+Toha+No.3,+RT.002%2FRW.005,+Pondok+Cabe+Udik,+Pamulang,+South+Tangerang+City,+Banten+15418!2m2!1d106.7502397!2d-6.3485621!3m5!1s0x2e69ef0c62f22ac9:0x7f8b5476db79fc14!8m2!3d-6.3485623!4d106.750176!16s%2Fg%2F1pzq1l0n9?entry=ttu" target="_blank">
-                <button class="text-4xl font-bold mb-4" style="text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Lokasi Gereja</button>
-                
-                <nav class="list-none mb-10" style="text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-                    St. Barnabas <br className='md:hidden block' />
-                    Jl. Moh. Toha No.3, <br className='md:hidden block' />
-                    RT.002/RW.005, Pd. Cabe Udik, <br className='md:hidden block' />
-                    Kec. Pamulang, Kota Tangerang Selatan, Banten 15418
-                </nav>
-                </a>
-            </div>
+            <button type="button" class="text-2xl font-bold mb-4 px-4 py-2 rounded bg-white border border-gray-400 hover:bg-stone-800 focus:outline-none focus:border-gray-500 focus:shadow-outline-gray" style="color: #3E2723;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#3E2723'">Google Maps</button>
+
+
+    </a>
+        </nav>
+</div>
+
         </div>
         <div class="bg-white" bis_skin_checked="1">
             <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col" bis_skin_checked="1">
