@@ -116,7 +116,7 @@
     <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <h1 class="sm:text-3xl text-5xl font-bold title-font mb-2 text-black">WARTA PAROKI</h1>
+                <h1 class="sm:text-6xl font-bold pt-32 mb-2 text-black">WARTA PAROKI</h1>
                 <div class="h-1 w-20 bg-yellow-950 rounded"></div>
             </div>
         </div>
@@ -142,9 +142,11 @@
     </div>  
     <div class="container px-5 py-24 mx-auto" bis_skin_checked="1">
         <div class="flex flex-wrap w-full mb-20">
-            
             <div class="w-full mb-6 lg:mb-0">
-                <h1 class="sm:text-3xl text-5xl text-center font-bold title-font mb-2 text-black">Informasi Gereja</h1>
+                <h1 class="text-black text-1xl font-medium text-center">Gereja Santo Barnabas</h1>
+            </div>
+            <div class="w-full mb-6 lg:mb-0">
+                <h1 class="text-black text-6xl font-bold text-center">Informasi Gereja</h1>
             </div>
         </div>
         <div class="flex flex-wrap" bis_skin_checked="1">
