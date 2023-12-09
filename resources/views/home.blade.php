@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="section-1">
-        <div class="bg-cover flex items-center justify-center h-screen relative" 
+        <div class="bg-cover flex items-center justify-center h-screen relative z-10" 
             style="background-image: url('{{ asset('images/background-1.png') }}');
                     background-position: center; 
                     position: relative;">
@@ -29,28 +29,22 @@
                     src="{{ asset('images/gereja.png') }}"
                     >
                 </div>
-                <div class="xl:flex-grow w-1/2 xl:pl-12 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Our History
+                <div class="xl:flex-grow w-1/2 xl:pl-12 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center relative z-20">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Profil Gereja
                     </h1>
-                    <p class="mb-8 leading-relaxed sm:text-xl text-3xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed do eiusmod tempor incididunt ut labore et 
-                        dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint
+                    <p class="mb-8 leading-relaxed sm:text-xl text-3xl relative">
+                        Klik tombol dibawah untuk melihat profil.
                     </p>
                     <div class="flex justify-center">
-                        <button class="inline-flex text-black font-bold bg-yellow-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Selanjutnya</button>
+                        <a href="#" class="inline-flex text-white font-bold bg-yellow-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Selanjutnya</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> <!-- Mario was he-->
+    </section> <!-- Mario was here-->
 
     <section id="section-1">
-        <div class="bg-cover flex items-center justify-center h-screen relative" 
+        <div class="bg-cover mt-10 flex items-center justify-center h-screen relative z-10" 
             style="background-image: url('{{ asset('images/misa.png') }}');
                     background-position: center; 
                     position: relative;">
