@@ -20,7 +20,7 @@
     </section>  
 
     <section id="section-2">
-        <div class="bg-white h-screen relative">
+        <div class="bg-white h-full relative">
             <h1 class="text-black text-6xl pt-32 font-bold text-center ">Gereja Santo Barnabas</h1>
             <div class="mx-auto w-full flex px-5 py-12 md:flex-row flex-col items-center">
                 <div class="xl:w-40rem w-40rem mb-10 md:mb-0">
@@ -29,11 +29,15 @@
                     src="{{ asset('images/gereja.png') }}"
                     >
                 </div>
-                <div class="xl:flex-grow w-1/2 xl:pl-12 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center relative z-20">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Profil Gereja
+                <div class="xl:flex-grow md:w-3/4 w-full xl:pl-12 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center relative z-20">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                        Profil Gereja
                     </h1>
-                    <p class="mb-8 leading-relaxed sm:text-xl text-3xl relative">
+                    <p class="mb-4 leading-relaxed sm:text-xl md:text-2xl text-3xl relative">
                         Klik tombol dibawah untuk melihat profil.
+                        <p class="hidden md:block mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec elit lobortis, vulputate metus quis, lacinia orci. Aliquam auctor sem ac felis suscipit blandit. Vivamus ante magna, tempor nec massa a, ornare porta mi. Aliquam non vehicula massa, vel pharetra erat. Nunc eleifend porta ipsum sit amet euismod. Curabitur mi risus, pharetra eget sem in, ultricies ultricies quam. Nulla hendrerit vitae est ac laoreet. 
+                        </p>
                     </p>
                     <div class="flex justify-center">
                         <a href="#" class="inline-flex text-white font-bold bg-yellow-700 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Selanjutnya</a>
@@ -55,61 +59,67 @@
         </div>
     </section>  
 
-    <section id="section-4">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4">
-                <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
-                    <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+    <section class="bg-white dark:bg-gray-900 antialiased">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+            <div class="max-w-3xl mx-auto text-center">
+            
+                        <svg aria-hidden="true" class="w-5 h-5 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
                         </svg>
-                    </div>
-                    <h1 class="text-lg text-gray-900 font-medium title-font mb-2">Misa Harian</h1>
-                    <h2 class="leading-relaxed text-base">06.00 WIB</h2>
-                    </div>
+                    </a>
                 </div>
-                <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
-                    <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                        <circle cx="6" cy="6" r="3"></circle>
-                        <circle cx="6" cy="18" r="3"></circle>
-                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                        </svg>
+            </div>
+    
+            <div class="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+                <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-700">
+                    <!-- Replace the schedule items with your specific content -->
+                    <!-- Example schedule items provided below -->
+    
+                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
+                            06:00 - 07:00
+                        </p>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                            <a href="#" class="hover:underline">Misa Harian</a>
+                        </h3>
                     </div>
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Misa Jumat Pertama</h2>
-                    <p class="leading-relaxed text-base">18.00 WIB</p>
+    
+                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
+                            18:00 - 19:00
+                        </p>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                            <a href="#" class="hover:underline">Misa Jumat Pertama</a>
+                        </h3>
                     </div>
-                </div>
-                <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
-                    <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
+    
+                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
+                            17:00 - 18:00
+                        </p>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                            <a href="#" class="hover:underline">Misa Sabtu</a>
+                        </h3>
                     </div>
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Misa Sabtu</h2>
-                    <p class="leading-relaxed text-base">17.00 WIB</p>
+    
+                    <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                        <p class="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
+                            05:30 - 07:30
+                        </p>
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                            <a href="#" class="hover:underline">Misa Minggu</a>
+                        </h3>
                     </div>
-                </div>
-                <div class="xl:w-1/3 md:w-1/2 p-4">
-                    <div class="border border-gray-200 p-6 rounded-lg">
-                    <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg text-gray-900 font-bold title-font mb-2">Misa Minggu</h2>
-                    <p class="leading-relaxed text-base font-normal">05.30 WIB</p>
-                    <p class="leading-relaxed text-base font-normal">07.30 WIB</p>
-                    <p class="leading-relaxed text-base font-normal">10.00 WIB</p>
-                    <p class="leading-relaxed text-base font-normal">17.00 WIB</p>
-                    </div>
+    
                 </div>
             </div>
         </div>
+    </section>
+    >
+        </section>
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
