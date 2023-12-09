@@ -34,8 +34,8 @@
             Peta Paroki Santo Barnabas
         </div>
         <div class="mx-auto w-full px-10 py-12 md:flex-row items-center flex justify-center">
-    <img class="object-cover h-auto object-center rounded" alt="Your Image Description" src="{{ asset('images/peta.png') }}">
-</div>
+            <img class="object-cover h-auto object-center rounded" alt="Your Image Description" src="{{ asset('images/peta.png') }}">
+        </div>
 
     </div>
 </section>
