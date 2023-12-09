@@ -46,9 +46,6 @@
             </div>
         </div>
     </section> <!-- Mario was here-->
-
- 
-
     <section id="section-1">
         <div class="bg-cover flex items-center justify-center h-96 relative z-10" 
             style="background-image: url('{{ asset('images/misa.png') }}');
@@ -103,10 +100,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    
-    
-        </section>
+    </section>   
+    <section>
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
