@@ -9,5 +9,5 @@ class WartaParoki extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['Judul', 'Tanggal', 'Isi', 'File'];
+    protected $fillable = ['Judul', 'TanggalUpload', 'Isi', 'File'];
 }
