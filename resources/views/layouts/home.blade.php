@@ -16,14 +16,14 @@
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-white mt-1 mr-2">
                     <img src="{{ asset('images/email.png') }}" alt="Email Logo" class="w-6 h-auto"> 
                 </a>
-                <p class="text-md text-white font-bold mr-4">santobarnabas@gmail.com</p>
+                <p class="text-md text-white font-bold mr-4">parokisantobarnabas@gmail.com</p>
             </div>
             
             <div class="flex items-center">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-white mr-2">
                     <img src="{{ asset('images/phone.png') }}" alt="Phone Logo" class="w-6 h-auto"> 
                 </a>
-                <p class="text-md text-white font-bold">+62 123 4567 8901</p>
+                <p class="text-md text-white font-bold">(021) 74713567</p>
             </div>
             
             <span class="inline-flex sm:ml-auto justify-center sm:justify-start">
