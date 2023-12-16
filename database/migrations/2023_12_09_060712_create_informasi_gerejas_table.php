@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("Judul")->required();
             $table->date('TanggalUpload')->required();
             $table->text('Isi')->required();
+            $table->string('images')->nullable()->default(null);
             $table->timestamps();
         });
     }

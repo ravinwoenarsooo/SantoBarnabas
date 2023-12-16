@@ -8,9 +8,12 @@ use Filament\Resources\Form;
 use Filament\Resources\Table;
 use App\Models\InformasiGereja;
 use Filament\Resources\Resource;
+use Livewire\TemporaryUploadedFile;
 use Filament\Forms\Components\Textarea;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\TextInput;
+use Filament\Tables\Columns\ImageColumn;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\RichEditor;
 use Illuminate\Database\Eloquent\Builder;
 use Filament\Forms\Components\DateTimePicker;
@@ -31,6 +34,8 @@ class InformasiGerejaResource extends Resource
                 TextInput::make('Judul')->required(),
                 DateTimePicker::make('TanggalUpload')->required(),
                 RichEditor::make('Isi')->toolbarButtons(['bold', 'italic', 'underline', 'undo', 'redo', 'h2', 'h3', 'bulletList', 'orderedList', 'codeBlock', ])->required(),
+                FileUpload::make('images')->directory('attachments')->visibility('private')->preserveFilenames()->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
+                    return (string) str($file->getClientOriginalName())->prepend(now()->timestamp);}),
             ]);
     }
 
@@ -40,7 +45,8 @@ class InformasiGerejaResource extends Resource
             ->columns([
                 TextColumn::make('Judul')->sortable()->searchable(),
                 TextColumn::make('Isi')->limit(50),
-                TextColumn::make('TanggalUpload')->sortable()->searchable(),                
+                TextColumn::make('TanggalUpload')->sortable()->searchable(), 
+                ImageColumn::make('images')
             ])
             ->filters([
                 //
