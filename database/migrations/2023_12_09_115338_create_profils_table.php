@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('profils', function (Blueprint $table) {
             $table->id();
-            $table->text('Isi')->required();
+            $table->text('Isi')->nullable()->default(null)->required();
             $table->timestamps();
         });
     }
