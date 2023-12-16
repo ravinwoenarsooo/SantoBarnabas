@@ -11,11 +11,14 @@
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-stone-800 text-center mt-8">
         {{ $informasiGereja->TanggalUpload }}
         </h1>
-        <div class="mx-auto w-full px-10 py-12 md:flex-row items-center">
+        <div class="flex justify-center items-center mb-10">
+            <img src="{{ asset('images/infoNatal.jpg') }}" alt="infoNatal">
+        </div>
+        <!-- <div class="mx-auto w-full px-10 py-12 md:flex-row items-center">
             <pre class="mb-4 leading-relaxed sm:text-xl md:text-2xl text-3xl relative">
                 {{ $informasiGereja->Isi }}
             </pre>
-        </div>
+        </div> -->
     </div>
 </section>
 @endsection
