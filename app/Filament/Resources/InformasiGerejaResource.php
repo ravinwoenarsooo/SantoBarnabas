@@ -33,7 +33,8 @@ class InformasiGerejaResource extends Resource
             ->schema([
                 TextInput::make('Judul')->required(),
                 DateTimePicker::make('TanggalUpload')->required(),
-                RichEditor::make('Isi')->toolbarButtons(['bold', 'italic', 'underline', 'undo', 'redo', 'h2', 'h3', 'bulletList', 'orderedList', 'codeBlock', ])->required(),
+                // RichEditor::make('Isi')->toolbarButtons(['bold', 'italic', 'underline', 'undo', 'redo', 'h2', 'h3', 'bulletList', 'orderedList', 'codeBlock', ])->required(),
+                TextInput::make('Isi')->required(),
                 FileUpload::make('images')->directory('attachments')->visibility('private')->preserveFilenames()->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
                     return (string) str($file->getClientOriginalName())->prepend(now()->timestamp);}),
             ]);

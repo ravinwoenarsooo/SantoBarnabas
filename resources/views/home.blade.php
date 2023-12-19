@@ -46,7 +46,7 @@
         </div>
     </section> <!-- Mario was here-->
     <section id="section-1">
-        <div class="bg-cover flex items-center justify-center h-96 relative z-10" 
+        <div class="bg-cover flex items-center justify-center h-96 relative z-10 mb-16" 
             style="background-image: url('{{ asset('images/misa.png') }}'); background-position: center;  background-size: cover; position: relative;">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.5;"></div>
             <div class="flex-col text-center font-montserrat text-white" style="z-index: 1;">
@@ -100,7 +100,135 @@
                 </div>
             </div>
         </div>
-    </section>   
+    </section>  
+    <section class="bg-white">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Jadwal Misa 2023 & Tahun Baru 2024</h1>
+            <p class="mb-8 text-lg font-bold text-black lg:text-2xl sm:px-16 lg:px-48 ">Paroki Pamulang - Gereja St.Barnabas</p>
+            <hr class="w-80 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+            <div class="flex flex-wrap justify-center gap-8 my-10">
+                <div class="flex flex-wrap justify-center gap-8">
+                    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="p-8">
+                            <p class="mt-2 text-2xl font-bold">Minggu Adven ke IV</p>
+                            <div class="mt-4">
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Sabtu, 23 Desember 2023:</p>
+                                    <p>-> 16.00 WIB & 18.30 WIB</p>
+                                </div>
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Minggu, 24 Desember 2023:</p>
+                                    <p>-> 07.00 WIB</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    <p class="font-semibold">Minggu, 24 Desember 2023 (Babakan):</p>
+                                    <p>-> 07.00 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="p-8">
+                            <p class="mt-2 text-2xl font-bold">Misa Malam Natal</p>
+                            <div class="mt-4">
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Minggu, 24 Desember 2023:</p>
+                                    <p>-> 15.00 WIB (Misa dengan UBK)</p>
+                                    <p>-> 19.00 WIB</p>
+                                    <p>-> 22.00 WIB</p>
+                                </div>
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Minggu, 24 Desember 2023 (Babakan):</p>
+                                    <p>-> 17.00 WIB (Misa dengan UBK)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="p-8">
+                            <p class="mt-2 text-2xl font-bold">Misa Natal</p>
+                            <div class="mt-4">
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Senin, 25 Desember 2023:</p>
+                                    <p>-> 07.00 WIB (Misa Natal UMUM)</p>
+                                    <p>-> 10.00 WIB (Misa Natal Anak & UBK)</p>
+                                </div>
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Senin, 25 Desember 2023 (Babakan):</p>
+                                    <p>-> 07.00 WIB</p>
+                                </div>
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Selasa, 26 Desember 2023:</p>
+                                    <p>-> 09.00 WIB (Misa Natal Adiyuswo)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                        <div class="p-8">
+                            <p class="mt-2 text-2xl font-bold">Misa Pesta Keluarga Kudus & Misa Tahun Baru</p>
+                            <div class="mt-4">
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Sabtu, 30 Desember 2023:</p>
+                                    <p>-> 17.00 WIB</p>
+                                </div>
+                                <div class="flex flex-col mb-4">
+                                    <p class="font-semibold">Minggu, 31 Desember 2023:</p>
+                                    <p>-> 05.30 WIB</p>
+                                    <p>-> 07.30 WIB</p>
+                                    <p>-> 10.00 WIB</p>
+                                    <p>-> 17.00 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mb-8 text-lg font-semibold text-black lg:text-2xl sm:px-16 lg:px-48 ">Jam Operasional Sekretariat</p>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 shadow-lg rounded-lg overflow-hidden">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-3 py-2 text-xs font-medium text-gray-500 uppercase tracking-wider">Hari</th>
+                            <th class="px-3 py-2 text-xs font-medium text-gray-500 uppercase tracking-wider">Jam</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Senin</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 19.00 WIB</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Selasa</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 14.00</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Rabu</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 14.00</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Kamis</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 19.00</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Jumat</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 19.00</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Sabtu</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 19.00</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2 whitespace-nowrap">Minggu</td>
+                            <td class="px-3 py-2 whitespace-nowrap">08.00 – 18.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap w-full mb-20">

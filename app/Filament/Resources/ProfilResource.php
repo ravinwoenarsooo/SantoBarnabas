@@ -10,6 +10,7 @@ use Filament\Resources\Table;
 use Filament\Resources\Resource;
 use Filament\Forms\Components\Textarea;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
 use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\ProfilResource\Pages;
@@ -26,7 +27,8 @@ class ProfilResource extends Resource
     {
         return $form
             ->schema([
-                RichEditor::make('Isi')->toolbarButtons(['bold', 'italic', 'underline', 'undo', 'redo', 'h2', 'h3', 'bulletList', 'orderedList', 'codeBlock', ])->required(),
+                // RichEditor::make('Isi')->toolbarButtons(['bold', 'italic', 'underline', 'undo', 'redo', 'h2', 'h3', 'bulletList', 'orderedList', 'codeBlock', ])->required(),#
+                TextInput::make('Isi')->required(),
             ]);
     }
 
